@@ -1,0 +1,174 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400&display=swap");
+body {
+  width: 100%;
+  height: 100%;
+  padding: 0px;
+  margin: 0px;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+html {
+  height: 100%;
+}
+
+#main {
+  height: 100%;
+  width: 100%;
+}
+
+#main #menu {
+  background-color: #673AB7;
+  height: 100%;
+  width: 30%;
+  color: white;
+  float: left;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#main #menu .logoandtitle p {
+  color: white;
+}
+
+#main #menu .logoandtitle img {
+  width: 50px;
+  height: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+@media only screen and (max-width: 598px) and (min-width: 50px) {
+  #main #menu {
+    width: 100%;
+    height: 30%;
+  }
+}
+
+@media only screen and (max-width: 959px) and (min-width: 600px) {
+  #main #menu {
+    width: 100%;
+    height: 30%;
+  }
+}
+
+#main #register {
+  height: 100%;
+  width: 70%;
+  color: white;
+  float: left;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#main #register .align {
+  width: 50%;
+}
+
+@media only screen and (max-width: 598px) and (min-width: 50px) {
+  #main #register .align {
+    width: 70%;
+  }
+}
+
+@media only screen and (max-width: 959px) and (min-width: 600px) {
+  #main #register .align {
+    width: 70%;
+  }
+}
+
+#main #register .align p {
+  color: black;
+  margin-bottom: 20px;
+  margin-top: 0;
+  width: 100%;
+  text-align: center;
+}
+
+@media only screen and (max-width: 598px) and (min-width: 50px) {
+  #main #register .align p {
+    margin-top: -20px;
+    margin-bottom: 20px;
+  }
+}
+
+@media only screen and (max-width: 959px) and (min-width: 600px) {
+  #main #register .align p {
+    margin-top: -20px;
+    margin-bottom: 20px;
+  }
+}
+
+#main #register .align form {
+  width: 100%;
+  padding: 0px;
+  border: 0;
+  border-radius: 15px;
+  color: black;
+}
+
+#main #register .align form label {
+  font-size: 0.8em;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+#main #register .align form input[type='text'], #main #register .align form input[type='submit'], #main #register .align form input[type='email'], #main #register .align form input[type='submit'], #main #register .align form input[type='password'], #main #register .align form input[type='submit'] {
+  width: 100%;
+  background-color: white;
+  border: 1px solid black;
+  padding-top: 11px;
+  text-indent: 10px;
+  padding-bottom: 11px;
+  font-size: 0.7em;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+@media only screen and (max-width: 598px) and (min-width: 50px) {
+  #main #register .align form input[type='text'], #main #register .align form input[type='submit'], #main #register .align form input[type='email'], #main #register .align form input[type='submit'], #main #register .align form input[type='password'], #main #register .align form input[type='submit'] {
+    margin-bottom: 10px;
+  }
+}
+
+@media only screen and (max-width: 959px) and (min-width: 600px) {
+  #main #register .align form input[type='text'], #main #register .align form input[type='submit'], #main #register .align form input[type='email'], #main #register .align form input[type='submit'], #main #register .align form input[type='password'], #main #register .align form input[type='submit'] {
+    margin-bottom: 10px;
+  }
+}
+
+#main #register .align form input[type='submit'] {
+  margin-top: 20px;
+  background-color: #673AB7;
+  color: white;
+  border: 0px;
+}
+
+@media only screen and (max-width: 598px) and (min-width: 50px) {
+  #main #register {
+    height: 70%;
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 959px) and (min-width: 600px) {
+  #main #register {
+    height: 70%;
+    width: 100%;
+  }
+}
+/*# sourceMappingURL=main.css.map */
